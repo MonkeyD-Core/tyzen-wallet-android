@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:swiperefreshlayout:28.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fcc9f6116c25afc63b5b230d5e731578/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8dfffaefcc5b365b3fecd428e21a34ce/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e5edd5126320e415140960b6e9f2818/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97c45b7d13babb5ab10da37335fe2522/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fcc9f6116c25afc63b5b230d5e731578/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fcc9f6116c25afc63b5b230d5e731578/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8dfffaefcc5b365b3fecd428e21a34ce/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8dfffaefcc5b365b3fecd428e21a34ce/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8dfffaefcc5b365b3fecd428e21a34ce/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e5edd5126320e415140960b6e9f2818/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e5edd5126320e415140960b6e9f2818/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e5edd5126320e415140960b6e9f2818/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97c45b7d13babb5ab10da37335fe2522/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97c45b7d13babb5ab10da37335fe2522/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97c45b7d13babb5ab10da37335fe2522/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F89C5"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".eth_send">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/arrow_left" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="60dp"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="276dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingLeft="10dp"
+                    android:text="Ethereum"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/ETH_Balance"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="0.00000000"
+                android:textColor="#FFD62C"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/ETH_usd"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="0.00"
+                android:textColor="#FFD62C"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_corner"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:text="Please make sure you have a valid wallet address of the recipient."
+            android:textColor="#2F89C5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!-- Bitcoin address field -->
+                    <EditText
+                        android:layout_width="0dp"
+                        android:id="@+id/etAddress"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:hint="ETH Address"
+                        android:paddingLeft="10dp"
+                        android:textSize="15dp"
+                        android:textColor="#2F89C5"
+                        android:textColorHint="#2F89C5" />
+
+                    <ImageButton
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff"
+                        android:padding="10dp"
+                        android:id="@+id/btn_scan"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/qr"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!--bitcoin amount field  -->
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:id="@+id/etAmount"
+                        android:hint="Amount of ETH"
+                        android:paddingLeft="10dp"
+                        android:textColor="#2F89C5"
+                        android:textColorHint="#2F89C5"
+                        android:inputType="number"
+                        android:textSize="15dp"
+                        android:digits="0123456789."/>
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:id="@+id/max"
+                        android:textColor="#2F89C5"
+                        android:scaleType="fitCenter"
+                        android:text="MAX" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF">-->
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:background="#00000000"
+                    android:hint="Notes"
+                    android:paddingLeft="10dp"
+                    android:textColorHint="#B2E5FC" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/notes" />
+            </LinearLayout>-->
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/usd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            android:text="$0.00"
+            android:textColor="#2F89C5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:id="@+id/fees"
+            android:textSize="15dp"
+            android:text=""
+            android:textColor="#2F89C5" />
+        <!-- send now -->
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/login_register"
+            android:text="Send" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

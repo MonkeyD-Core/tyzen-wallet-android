@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- top section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@drawable/bg_corner2"
+        android:scaleType="fitXY">
+        //Top
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <!-- Bitcoin address field -->
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:text="Welcome !"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="35dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!-- Bitcoin address field -->
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="276dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:paddingLeft="10dp"
+                    android:text="John Michael S."
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <!--Start main balance-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/editext2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!-- Bitcoin address field -->
+                    <TextView
+                        android:layout_width="276dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:paddingLeft="10dp"
+                        android:text="TOTAL ASSET"
+                        android:textStyle="bold"
+                        android:textColor="#808080"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="10dp"
+                        android:text="USD"
+                        android:layout_gravity="right"
+                        android:textStyle="bold"
+                        android:textColor="#808080"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal">
+                    <!--bitcoin amount field  -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:text="$"
+                        android:textStyle="bold"
+                        android:textColor="#808080"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/total_balance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0.00"
+                        android:paddingLeft="5dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="25dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--End balance-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/exchange"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/deposit"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0C94EA"
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/login_register2"
+                    android:drawableLeft="@drawable/deposit"
+                    android:drawablePadding="-20dp"
+                    android:text="DEPOSIT" />
+                <Button
+                    android:id="@+id/withdraw"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0C94EA"
+                    android:textSize="13dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/login_register2"
+                    android:drawableLeft="@drawable/withdraw"
+                    android:drawablePadding="-20dp"
+                    android:text="WITHDRAW" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/accounts"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0C94EA"
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/login_register2"
+                    android:drawableLeft="@drawable/ac"
+                    android:drawablePadding="-20dp"
+                    android:text="ACCOUNT" />
+                <Button
+                    android:id="@+id/settings"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0C94EA"
+                    android:textSize="13dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/login_register2"
+                    android:drawableLeft="@drawable/set"
+                    android:drawablePadding="-20dp"
+                    android:text="SETTINGS" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--Scroll View>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/bg_corner"
+        android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/pullToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ethlyte_button"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="80dp">
+                <!-- btc -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#FFFFFF">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <!-- Bitcoin address field -->
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:paddingLeft="10dp"
+                            android:text="Tyzen"
+                            android:textColor="#000000"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:id="@+id/lyte_balance"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textEnd"
+                            android:layout_marginRight="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="0.00"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/arrow_right"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- btc -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="40dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <!-- Bitcoin address field -->
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="0dp"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="50dp"
+                                android:id="@+id/etlytet_usd"
+                                android:text="0.0"
+                                android:textStyle="bold"
+                                android:textColor="#2FBE7D"
+                                android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                    <!-- activity -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Transaction History"
+                        android:textColor="#7F8180"
+                        android:textSize="18dp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2DBE0"></View>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/fishPriceList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

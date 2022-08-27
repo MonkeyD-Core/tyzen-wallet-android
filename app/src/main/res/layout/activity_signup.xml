@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:src="@drawable/circle_haft" />
+    </LinearLayout>
+    <!--Logo-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!-- Bitcoin address field -->
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo" />
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:paddingTop="38dp"-->
+<!--                android:text="COIN"-->
+<!--                android:textColor="#808080"-->
+<!--                android:textSize="28dp"-->
+<!--                android:textStyle="bold" />-->
+        </LinearLayout>
+    </LinearLayout>
+    //Refresh here
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!-- Bitcoin address field -->
+                    <EditText
+                        android:layout_width="0dp"
+                        android:id="@+id/name"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:hint="Username"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="#2F89C5"
+                        android:background="@drawable/editext"
+                        android:textColorHint="#2F89C5" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!-- Bitcoin address field -->
+                    <EditText
+                        android:layout_width="0dp"
+                        android:id="@+id/email"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:hint="Email"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="#2F89C5"
+                        android:paddingLeft="20dp"
+                        android:background="@drawable/editext"
+                        android:textColorHint="#2F89C5" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!-- Bitcoin address field -->
+                    <EditText
+                        android:layout_width="0dp"
+                        android:id="@+id/password"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:hint="Password"
+                        android:textSize="15dp"
+                        android:inputType="textPassword"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#2F89C5"
+                        android:background="@drawable/editext"
+                        android:textColorHint="#2F89C5" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!-- Bitcoin address field -->
+                    <EditText
+                        android:layout_width="0dp"
+                        android:id="@+id/cpassword"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:hint="Confirm Password"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp"
+                        android:textColor="#2F89C5"
+                        android:textStyle="bold"
+                        android:inputType="textPassword"
+                        android:background="@drawable/editext"
+                        android:textColorHint="#2F89C5" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <!-- Bitcoin address field -->
+                    <Button
+                        android:layout_width="0dp"
+                        android:id="@+id/singup"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:text="Sign UP"
+                        android:textSize="18dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:background="@drawable/login_register" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/member"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="ALREADY MEMBER! SIGN IN"
+                    android:textColor="#2F89C5"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:gravity="right">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/small_circle" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/small_circle" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/small_circle" />
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:src="@drawable/circle_haft_right" />
+    </LinearLayout>
+        <!--Terms-->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/member"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ALREADY MEMBER! SIGN IN"
+                android:textColor="#FFD62C"/>
+
+        </LinearLayout>-->
+
+        <!--Terms-->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="By clicking 'Sign Up' you consent and agree to our"
+                android:textColor="#2F89C5"/>
+
+        </LinearLayout>-->
+        <!--Terms-->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/terms"
+                android:text="Terms of Service"
+                android:textColor="#F59D28"/>
+        </LinearLayout>-->
+        <!--Terms-->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="and"
+                android:textColor="#2F89C5"/>
+        </LinearLayout>-->
+        <!--Terms-->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/policy"
+                android:text="Privacy Policy"
+                android:textColor="#F59D28"/>
+        </LinearLayout>-->
+</RelativeLayout>

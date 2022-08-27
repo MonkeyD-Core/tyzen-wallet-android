@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Settings">
+
+    <!-- top section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:scaleType="fitXY">
+        //Top
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/arrow_left" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        //Balance
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <!-- Bitcoin address field -->
+                <TextView
+                    android:id="@+id/total_balance"
+                    android:layout_width="276dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:paddingLeft="10dp"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp" />
+
+                <!--<ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/notify"
+                android:src="@drawable/notify"/>-->
+                <!--<ImageView
+                    android:id="@+id/settings"
+                    android:layout_width="25dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/settings" />-->
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--Scroll View>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/pullToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="8dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="400dp"
+                    android:orientation="vertical">
+
+                    <!--BTC-->
+                    <RelativeLayout
+                        android:id="@+id/contact_button"
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="200dp">
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="0dp"
+                            android:background="#FFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <!-- Bitcoin address field -->
+
+
+                                <TextView
+                                    android:layout_width="330dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:paddingLeft="10dp"
+                                    android:text="New version is available, please update now."
+                                    android:textColor="#000000"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="40dp"
+                            android:background="#2B292A">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+                                <!-- Bitcoin address field -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_marginTop="0dp"
+                                    android:id="@+id/cont"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:text="Released version 2.4 \n Whats new : \n1. Fixed app logout after opening the dashboard. \n2. Added EtLyteT/BTC market information \n3. Easy navigate trading to CoinMex and EtherFlyer"
+                                    android:layout_marginLeft="15dp"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+                        <!-- Bitcoin address field -->
+                        <Button
+                            android:layout_width="0dp"
+                            android:id="@+id/update"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:text="Update Now!"
+                            android:textSize="13dp"
+                            android:padding="5dp"
+                            android:textColor="#000000"
+                            android:background="@drawable/login_register" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

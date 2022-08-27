@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context=".Verify_Seed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <!-- sign in now -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:padding="0dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/arrow_left" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <!-- sign in now -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <!-- Bitcoin address field -->
+                <ImageView
+                    android:id="@+id/settings"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logo" />
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:paddingTop="38dp"-->
+<!--                    android:text="COIN"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#808080"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:textSize="28dp" />-->
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Verify recovery phrase"
+            android:textColor="#2F89C5"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Please verify your 12 digit words by typing below to proceed with your wallet creation"
+            android:textColor="#2F89C5" />
+
+        <EditText
+            android:id="@+id/seed"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/editext2"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text=""
+            android:textColor="#2F89C5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="0dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+            <Button
+                android:id="@+id/two"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+            <Button
+                android:id="@+id/three"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:text="Verify" />
+            <Button
+                android:id="@+id/four"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/five"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="0dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+            <Button
+                android:id="@+id/six"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="0dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+            <Button
+                android:id="@+id/ten"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+            <Button
+                android:id="@+id/eleven"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+            <Button
+                android:id="@+id/twelve"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:background="@drawable/seed"
+                android:textColor="#FFFFFF"
+                android:text="Verify" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="@drawable/seed2"
+                android:textColor="#ffffff"
+                android:text="Clear" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:background="@drawable/login_register"
+            android:text="Verify" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

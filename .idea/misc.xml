@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/I/Projects 2020/Columbian/bxCoin/app/src/main/res/layout/activity_account.xml" value="0.358695652173913" />
+        <entry key="..\:/I/Projects 2020/Columbian/bxCoin/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_account.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_account_edit.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_asset.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_bch_send.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_blockchain.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_btc_send.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_exchange.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_message.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_otp.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_seed.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_settings.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_signin.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_signup.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_splash.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_status.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_trade.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_update.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_update_ticker.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_verify_seed.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_welcome.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_withdraw_btc.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/activity_withdraw_option.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/container_fish.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/container_history.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/list_data.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/layout/spinner_cutom_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Desktop/TZNcoin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2985" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/bg_corner.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/bg_corner2.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/circle_haft.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/circle_haft_right.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/editext.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/editext2.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/login_register.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/login_register2.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/login_register_button.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/seed.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/seed2.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/drawable/small_circle.xml" value="0.2135" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_account.xml" value="0.33" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_account_edit.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_asset.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_bch_send.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_bch_transaction.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_blockchain.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_btc_send.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_btc_transaction.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_erc_send.xml" value="0.5" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_erc_transaction.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_eth_send.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_eth_transaction.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_exchange.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_forgot.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_history.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_message.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_otp.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_pin1.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_pin2.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_pin_verify.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_qrcode.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_reward.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_seed.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_settings.xml" value="0.33" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_signin.xml" value="0.33" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_signup.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_splash.xml" value="0.24791666666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_status.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_trade.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_update.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_update_ticker.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_verify_seed.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_welcome.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_withdraw_bank.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_withdraw_btc.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/activity_withdraw_option.xml" value="0.33" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/container_fish.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/container_history.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/list_data.xml" value="0.3104166666666667" />
+        <entry key="..\:/myfiles/Projects2022/FIVERR/Foursedev/bxCoin/app/src/main/res/layout/spinner_cutom_layout.xml" value="0.3104166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

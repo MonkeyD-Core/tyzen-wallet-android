@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Signin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:src="@drawable/circle_haft" />
+    </LinearLayout>
+    <!--Logo-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!-- Bitcoin address field -->
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo" />
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:paddingTop="38dp"-->
+<!--                android:text="COIN"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#808080"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textSize="28dp" />-->
+        </LinearLayout>
+    </LinearLayout>
+    <!--Main content-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <!-- Bitcoin address field -->
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/editext"
+                    android:hint="Username"
+                    android:paddingLeft="20dp"
+                    android:textColor="#2F89C5"
+                    android:textColorHint="#2F89C5"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <!-- Bitcoin address field -->
+                <EditText
+                    android:layout_width="0dp"
+                    android:id="@+id/password"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#2F89C5"
+                    android:paddingLeft="20dp"
+                    android:background="@drawable/editext"
+                    android:textColorHint="#2F89C5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <!-- Bitcoin address field -->
+                <Button
+                    android:layout_width="0dp"
+                    android:id="@+id/signin"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:text="Sign IN"
+                    android:paddingLeft="10dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:background="@drawable/login_register" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--Terms-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/forgot"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FORGOT PASSWORD"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/signup"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NO ACCOUNT? SIGN UP"
+                android:textStyle="bold"
+                android:textColor="#2F89C5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:gravity="right">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/small_circle" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/small_circle" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/small_circle" />
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:src="@drawable/circle_haft_right" />
+    </LinearLayout>
+</RelativeLayout>

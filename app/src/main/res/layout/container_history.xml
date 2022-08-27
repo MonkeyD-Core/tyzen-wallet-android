@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tTime"
+        android:layout_width="139dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
+        android:text="Time"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tTypes"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="19dp"
+        android:layout_toLeftOf="@+id/tAmount"
+        android:layout_toRightOf="@id/tTime"
+        android:gravity="left"
+        android:padding="0dp"
+        android:text="type"
+        android:textColor="#029E74"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tAmount"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="amount"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#547cf2"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tHash"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tTypes"
+        android:layout_toEndOf="@id/tTime"
+        android:layout_toRightOf="@id/tTime"
+        android:padding="5dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#029E74" />
+
+
+</RelativeLayout>

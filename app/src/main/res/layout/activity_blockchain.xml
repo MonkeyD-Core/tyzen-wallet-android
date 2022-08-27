@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".blockchain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="#2F89C5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/back"
+                android:gravity="center"
+                android:padding="0dp"
+                android:src="@drawable/arrow_left" />
+
+            <TextView
+                android:id="@+id/ETH_Balance"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Transaction Sent"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="60dp"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_corner"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Your transaction ID"
+            android:textColor="#2F89C5"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/hash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:text="XXXXXXX"
+            android:textColor="#2F89C5" />
+
+        <!-- send now -->
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/login_register"
+            android:text="View in blockchain" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
