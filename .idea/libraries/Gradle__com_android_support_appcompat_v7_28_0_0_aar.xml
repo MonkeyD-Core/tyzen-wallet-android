@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:appcompat-v7:28.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fe3266669303a94eb58d97c48e32b15/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d0d7b0e68cbc334e4b74529af9bd75d/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c62ba9e5a4e6dfdafb544e2ba0afd34/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1adfb66fd2d198b58849ea41b2a51678/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fe3266669303a94eb58d97c48e32b15/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fe3266669303a94eb58d97c48e32b15/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d0d7b0e68cbc334e4b74529af9bd75d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d0d7b0e68cbc334e4b74529af9bd75d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d0d7b0e68cbc334e4b74529af9bd75d/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c62ba9e5a4e6dfdafb544e2ba0afd34/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c62ba9e5a4e6dfdafb544e2ba0afd34/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c62ba9e5a4e6dfdafb544e2ba0afd34/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1adfb66fd2d198b58849ea41b2a51678/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1adfb66fd2d198b58849ea41b2a51678/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1adfb66fd2d198b58849ea41b2a51678/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
