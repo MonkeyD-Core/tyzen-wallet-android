@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2F89C5"
+    android:layout_height="match_parent"
+    tools:context=".Status">
+
+    <!-- top section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:scaleType="fitXY">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:src="@drawable/arrow_left" />
+
+            <TextView
+                android:id="@+id/USD"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-60dp"
+                android:text="Order Status"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+            <TextView
+                android:id="@+id/asset"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Your balance"
+                android:textColor="#e1e3e8"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:gravity="center"/>
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_corner">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="PAYMENT PROCESSING"
+            android:textColor="#2F89C5"
+            android:textSize="16dp" />
+
+        <!--Start the calculation-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="154dp"
+                    android:layout_height="50dp"
+                    android:paddingLeft="20dp"
+                    android:text="TRANSACTION ID"
+                    android:textColor="#2F89C5"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="0dp"
+                    android:padding="0dp"
+                    android:text="xxxxxxxxxxxxx"
+                    android:textColor="#FFD62C"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="155dp"
+                    android:layout_height="50dp"
+                    android:paddingLeft="20dp"
+                    android:text="EXCHANGE"
+                    android:textColor="#2F89C5"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/ex"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="0dp"
+                    android:padding="0dp"
+                    android:text="BTC-ETH"
+                    android:textColor="#FFD62C"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="155dp"
+                    android:layout_height="46dp"
+                    android:paddingLeft="20dp"
+                    android:text="AMOUNT SENT"
+                    android:textColor="#2F89C5"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/amountS"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="0dp"
+                    android:padding="0dp"
+                    android:text="0.0"
+                    android:textColor="#FFD62C"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="155dp"
+                    android:layout_height="50dp"
+                    android:paddingLeft="20dp"
+                    android:text="AMOUNT RECIEVED"
+                    android:textColor="#2F89C5"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/amountR"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="0dp"
+                    android:padding="0dp"
+                    android:text="0.0"
+                    android:textColor="#FFD62C"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title5"
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:paddingLeft="20dp"
+                    android:text="HASH ID"
+                    android:textColor="#2F89C5"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/hash"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="0dp"
+                    android:padding="0dp"
+                    android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                    android:textColor="#FFD62C"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+            <!-- send now -->
+
+            <Button
+                android:id="@+id/btn_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="70dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/login_register"
+                android:text="View in blockchain" />
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#5AA5FF" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_copy"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/gredient_effect_for_button_receive"
+                android:text="copy transaction"
+                android:textColor="@color/text_color" />
+
+        </LinearLayout>-->
+    </LinearLayout>
+    <!--Bottom Menu-->
+</RelativeLayout>
