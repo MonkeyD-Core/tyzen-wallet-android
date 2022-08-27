@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/05f00b5b62db2a211181393f1165d6fa/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/05f00b5b62db2a211181393f1165d6fa/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a817d199b3bcda1a9e2bf5342084a731/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a817d199b3bcda1a9e2bf5342084a731/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a817d199b3bcda1a9e2bf5342084a731/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae7cd10a0e687f031a22ac9d57ca8bde/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae7cd10a0e687f031a22ac9d57ca8bde/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae7cd10a0e687f031a22ac9d57ca8bde/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2c1b29b8fd88eeb98cc144fa62982e7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2c1b29b8fd88eeb98cc144fa62982e7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2c1b29b8fd88eeb98cc144fa62982e7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
