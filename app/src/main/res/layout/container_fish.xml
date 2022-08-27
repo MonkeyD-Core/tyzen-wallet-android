@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <!--<TextView
+        android:layout_width="60dp"
+        android:scaleType="fitXY"
+        android:layout_height="60dp"
+        android:text="Time"
+        android:id="@+id/tTime"/>-->
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/tTime"
+        android:padding="0dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/arrow_r" />
+
+    <TextView
+        android:id="@+id/tTypes"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="19dp"
+        android:layout_toLeftOf="@+id/tAmount"
+        android:layout_toRightOf="@id/tTime"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="type"
+        android:textColor="#0C94EA"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tAmount"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="amount"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#0C94EA"
+        android:textSize="15dp" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/tHash"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/tTypes"
+        android:layout_toRightOf="@id/tTime"
+        android:layout_toEndOf="@id/tTime"
+        android:textColor="#666"/>-->
+
+
+</RelativeLayout>
