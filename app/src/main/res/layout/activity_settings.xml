@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Settings">
+
+    <!-- top section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:scaleType="fitXY">
+        //Top
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/arrow_left" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        //Balance
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!-- Bitcoin address field -->
+                <TextView
+                    android:id="@+id/total_balance"
+                    android:layout_width="276dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingLeft="10dp"
+                    android:text="Settings"
+                    android:textColor="#0C94EA"
+                    android:textSize="25dp" />
+
+                <ImageView
+                    android:id="@+id/settings"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/set" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--Scroll View>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D2DBE0"></View>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical">
+
+<!--                    <RelativeLayout-->
+<!--                        android:id="@+id/ethlyte_button"-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_height="wrap_content">-->
+<!--                        &lt;!&ndash; btc &ndash;&gt;-->
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="0dp"-->
+<!--                            android:background="#FFFFFF">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:orientation="horizontal">-->
+<!--                                &lt;!&ndash; Bitcoin address field &ndash;&gt;-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="20dp"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginLeft="15dp"-->
+<!--                                    android:layout_marginTop="6dp"-->
+<!--                                    android:src="@drawable/name2"/>-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="276dp"-->
+<!--                                    android:layout_marginTop="5dp"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_weight="1.0"-->
+<!--                                    android:paddingLeft="10dp"-->
+<!--                                    android:text="Email Two-Factor Authentication"-->
+<!--                                    android:textColor="#000000"-->
+<!--                                    android:textSize="18dp" />-->
+
+<!--                            </LinearLayout>-->
+<!--                        </LinearLayout>-->
+
+<!--                        &lt;!&ndash; btc &ndash;&gt;-->
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="40dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginTop="5dp"-->
+<!--                                android:orientation="horizontal">-->
+<!--                                &lt;!&ndash; Bitcoin address field &ndash;&gt;-->
+
+<!--                                <TextView-->
+<!--                                    android:id="@+id/fullname"-->
+<!--                                    android:layout_width="260dp"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginLeft="15dp"-->
+<!--                                    android:layout_marginTop="0dp"-->
+<!--                                    android:paddingLeft="10dp"-->
+<!--                                    android:text="Used for sending coins"-->
+<!--                                    android:textColor="#808080"-->
+<!--                                    android:textSize="17dp" />-->
+
+<!--                                <Switch-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="10dp"-->
+<!--                                    android:id="@+id/fa"-->
+<!--                                    android:textOn="On"-->
+<!--                                    android:textOff="Off"-->
+<!--                                    android:text="Off"-->
+<!--                                    android:textColor="#808080"-->
+<!--                                    android:textSize="17dp"-->
+<!--                                    android:checked="false" />-->
+
+<!--                            </LinearLayout>-->
+<!--                        </LinearLayout>-->
+
+<!--                    </RelativeLayout>-->
+                    <!--BTC-->
+                    <RelativeLayout
+                        android:id="@+id/contact_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#FFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <!-- Bitcoin address field -->
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="6dp"
+                                    android:src="@drawable/email2"/>
+
+                                <TextView
+                                    android:layout_width="330dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:paddingLeft="10dp"
+                                    android:text="Contact"
+                                    android:textColor="#000000"
+                                    android:textSize="18dp" />
+
+                                <TextView
+                                    android:layout_width="276dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:paddingLeft="10dp"
+                                    android:text=""
+                                    android:textColor="#000000"
+                                    android:textSize="16dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <!-- Bitcoin address field -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:id="@+id/cont"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:text="supports@tyzen.io"
+                                    android:layout_marginLeft="15dp"
+                                    android:textColor="#808080"
+                                    android:textSize="17dp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <!--ETH-->
+                    <RelativeLayout
+                        android:id="@+id/help_button"
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="80dp">
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="0dp"
+                            android:background="#FFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <!-- Bitcoin address field -->
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="6dp"
+                                    android:src="@drawable/help"/>
+
+                                <TextView
+                                    android:layout_width="330dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:paddingLeft="10dp"
+                                    android:text="Help"
+                                    android:textColor="#000000"
+                                    android:textSize="18dp" />
+                                <TextView
+                                    android:layout_width="276dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:paddingLeft="10dp"
+                                    android:text=""
+                                    android:textColor="#000000"
+                                    android:textSize="16dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="35dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+                                <!-- Bitcoin address field -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_marginTop="0dp"
+                                    android:id="@+id/hel"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:text="supports@tyzen.io"
+                                    android:layout_marginLeft="15dp"
+                                    android:textColor="#808080"
+                                    android:textSize="17dp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <!--ETH-->
+                    <RelativeLayout
+                        android:id="@+id/info_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:background="#FFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <!-- Bitcoin address field -->
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="6dp"
+                                    android:src="@drawable/feed"/>
+
+                                <TextView
+                                    android:layout_width="330dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:paddingLeft="10dp"
+                                    android:text="Send Feedback"
+                                    android:textColor="#000000"
+                                    android:textSize="18dp" />
+                                <TextView
+                                    android:layout_width="276dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:paddingLeft="10dp"
+                                    android:text=""
+                                    android:textColor="#000000"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <!-- Bitcoin address field -->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:id="@+id/inf"
+                                    android:text="feedback@tyzen.io"
+                                    android:layout_marginLeft="15dp"
+                                    android:textColor="#808080"
+                                    android:textSize="17dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_marginTop="30dp"
+                        android:layout_height="40dp">
+
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/key"
+                            android:layout_marginTop="0dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <Button
+                                    android:id="@+id/asset_button"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#FFFFFFFF"
+                                    android:textSize="15dp"
+                                    android:background="@drawable/login_register"
+                                    android:text="EXPORT KEY" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/version"
+                        android:layout_width="fill_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:layout_height="0dp">
+
+                        <!-- btc -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:id="@+id/keys"
+                            android:gravity="center"
+                            android:layout_marginTop="100dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/vers"
+                                    android:layout_width="276dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:textStyle="italic"
+                                    android:textColor="#808080"
+                                    android:textSize="15dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
