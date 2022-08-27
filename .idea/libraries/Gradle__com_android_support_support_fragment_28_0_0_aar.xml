@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:support-fragment:28.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3c3722c9075e5a1cd1e16ccdcaf4775/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32a5ad784e304ab437aa7bb1a6f504c3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f158e3c119dcf926c7bbfc4385f48c27/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1adda7f869d3be6e538b7fdcd7fc523b/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3c3722c9075e5a1cd1e16ccdcaf4775/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3c3722c9075e5a1cd1e16ccdcaf4775/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32a5ad784e304ab437aa7bb1a6f504c3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32a5ad784e304ab437aa7bb1a6f504c3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32a5ad784e304ab437aa7bb1a6f504c3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f158e3c119dcf926c7bbfc4385f48c27/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f158e3c119dcf926c7bbfc4385f48c27/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f158e3c119dcf926c7bbfc4385f48c27/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1adda7f869d3be6e538b7fdcd7fc523b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1adda7f869d3be6e538b7fdcd7fc523b/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1adda7f869d3be6e538b7fdcd7fc523b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
