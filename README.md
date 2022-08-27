@@ -36,3 +36,4 @@ Demo : https://play.google.com/store/apps/details?id=net.tyzen.io
 - TRON : TXgiAzq9ia36NxkjswboEsn8v2DYk5Vgic
 
 ### Feel free to contribute
+I am not responsible for any criminal acts committed by people who use Tyzen Wallet source code.
